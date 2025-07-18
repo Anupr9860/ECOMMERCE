@@ -14,7 +14,7 @@ const PurchaseButton = ({ product }) => {
   return (
     <>
       <button
-        className="bg-purple-800 text-white px-4 py-2 mt-3 rounded-sm hover:bg-purple-700 transition"
+        className="bg-blue-800 p-3 py-1 rounded-sm text-white mt-2"
         onClick={openPanel}
       >
         Purchase

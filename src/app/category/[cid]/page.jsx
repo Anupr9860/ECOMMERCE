@@ -49,7 +49,7 @@ function Page() {
                 className='bg-blue-800 p-3 py-1 rounded-sm text-white mt-2'
                 onClick={() => openOffcanvas(a)}
               >
-                Buy Now
+                Purchase
               </button>
               {showOffcanvas && selectedProduct && (
                 <div className="fixed inset-0 z-50 flex">
